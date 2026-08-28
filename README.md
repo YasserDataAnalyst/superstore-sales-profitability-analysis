@@ -122,25 +122,51 @@ The purpose of this additional analysis would be to identify the underlying driv
 
 ## Project Structure
 
-The repository contains the project documentation, analysis files, Power BI dashboard, and supporting visualizations.
+The repository contains the project documentation, analysis files, Power BI dashboard, dataset, and supporting visualizations.
 
-The final repository structure will be organized as follows:
+* `README.md` — Project overview, analytical approach, findings, recommendations, and limitations.
+* `data/` — Dataset used for the analysis.
+* `sql/` — SQL queries used for profitability, discount, and product-level analysis.
+* `notebooks/` — Python analysis and visualizations.
+* `dashboard/` — Power BI dashboard file.
+* `images/` — Dashboard screenshots and supporting visualizations.
 
-- `README.md` — Project overview, analytical approach, findings, recommendations, and limitations.
-- `data/` — Dataset used for the analysis.
-- `sql/` — SQL queries used for profitability, discount, and product-level analysis.
-- `python/` — Python analysis and visualizations.
-- `powerbi/` — Power BI dashboard file.
-- `screenshots/` — Final dashboard screenshots.
 
 
 ## Dashboard
 
 The Power BI dashboard presents the main findings across six analytical views:
 
-- Executive Overview
-- Sales & Profit Analysis
-- Discount & Profitability
-- Product Analysis
-- Regional & Geographic Analysis
-- Customer & Order Analysis
+* Executive Overview
+* Sales & Profit Analysis
+* Discount & Profitability
+* Product Analysis
+* Regional & Geographic Analysis
+* Customer & Order Analysis
+
+### Dashboard Preview
+
+#### Executive Overview
+
+![Executive Overview](images/Executive%20Overview.png)
+
+#### Sales & Profit Analysis
+
+![Sales & Profit Analysis](images/Sales%20%26%20Profit%20Analysis.png)
+
+#### Discount & Profitability
+
+![Discount & Profitability](images/Discount%20%26%20Profitability.png)
+
+#### Product Analysis
+
+![Product Analysis](images/Product%20Analysis.png)
+
+#### Regional & Geographic Analysis
+
+![Regional & Geographic Analysis](images/Regional%20%26%20Geographic%20Analysis.png)
+
+#### Customer & Order Analysis
+
+![Customer & Order Analysis](images/Customer%20%26%20Order%20Analysis.png)
+
